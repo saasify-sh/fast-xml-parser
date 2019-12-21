@@ -2,7 +2,51 @@
   "name": "fast-xml-parser",
   "services": [
     {
-      "src": "index.ts"
+      "src": "src/convert-url-to-json.ts",
+      "examples": [
+        {
+          "name": "Convert XML to JSON for a URL",
+          "description": "Convert XML to JSON ",
+          "input": {
+            "url": "https://www.w3schools.com/xml/note.xml"
+          }
+        }
+      ]
+    },
+    {
+      "src": "src/convert-to-json.ts"
+    },
+    {
+      "src": "src/convert-url-to-xml.ts",
+      "examples": [
+        {
+          "name": "Convert JSON to XML for a URL",
+          "description": "Convert JSON to XML",
+          "input": {
+            "url": "https://gist.githubusercontent.com/chrisvxd/a247220f5e08bbeaa6f769a111447012/raw/df14bcb1be715e248e4029261399e711856e261f/fast-xml-parser-example.json"
+          }
+        }
+      ]
+    },
+    {
+      "src": "src/convert-to-xml.ts",
+      "GET": false
+    },
+    {
+      "src": "src/validate-url.ts",
+      "examples": [
+        {
+          "name": "Validate",
+          "description": "Validate XML",
+          "input": {
+            "url": "https://www.w3schools.com/xml/note.xml"
+          }
+        }
+      ]
+    },
+    {
+      "src": "src/validate.ts",
+      "GET": false
     }
   ]
 }
