@@ -1,0 +1,15 @@
+{
+  "name": "fast-xml-parser",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An API to validate XML, Parse XML to JS/JSON and vise versa",
+  "author": "NaturalIntelligence",
+  "license": "MIT",
+  "repository": "NaturalIntelligence/fast-xml-parser",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9"
+  }
+}
